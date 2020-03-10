@@ -2,8 +2,11 @@
 .nav-brand{
   background-color: #20B2AA;
   color: white;
-  font-size: 20px;
+  font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
+  padding: 12px;
+  border-radius: 4%;
+  
 }
 
 .navbar-brand{
@@ -16,12 +19,15 @@
   .navbar li a {
     color: #000;
     text-decoration: none;
+    float: top;
   }
   
+  
+
   .header{
     color: lightseagreen;
     margin-bottom: 30px;
-    padding-top: 60px;
+    padding-top: 15px;
     padding-left: 0;
    
   }
@@ -30,10 +36,10 @@
     /* width: 500px; */
     /* padding:  60px 10px 50px 60px; */
     margin-top: 40px;
-    margin-left: 30px; 
+    margin-left: 0px; 
     margin-bottom: 20px;
-    margin-right: 10px;
-    float: left;
+    margin-right: 0px;
+    /* float: left; */
 
   }
 
@@ -41,82 +47,105 @@
     width: 250px;
     height: 150px;
     float:left;
-    padding: 0 5px 5px 0;
+    /* padding: 0 px 5px 0; */
    }
 
   .left2 {
     width: 250px;
     height: 150px;
-    /* float: right; */
+    float: left;
     padding: 0 5px 5px 0;
    }
 
    .right{
     width: 250px;
     height: 150px;
-    /* float: right; */
-    padding: 0 5px 5px 0;
+    float: left;
+    /* padding: 0 5px 5px 0; */
 
    }
 
    .BL{
     width: 250px;
     height: 150px;
-    /* float: right; */
-    padding: 0 5px 5px 0;
+    float: left;
+    /* padding: 0 5px 5px 0; */
+    
 
    }
 
    .BR{
     width: 250px;
     height: 150px;
-    /* float: bottom; */
-    padding: 0 5px 5px 0;
+    float: left;
+    /* padding: 0 5px 5px 0; */
 
    }
 
+   .border{
+    width: 250px;
+    height: 150px;
+    float: left;
+    border:0 solid #20B2AA;
+    /* border-style: groove; */
+    border-width: thick;
    
+   }
 
    .Viz{
-     width: 550px;
+     width: 600px;
      height: 450px;
+     
    }
 
-   .description-content {
+   .col-md-7{
+     padding-left: 60px;
+   }
+
+   .col-md-5{
+     padding-right: 50px;
+   }
+
+
+
+
+   /* .description-content { */
     /* Box-model */
-    padding: 30px;
+    /* padding: 100px; */
     /* Positioning */
-    margin-top: 32px;
+    /* margin-top: 10px; */
     /* Visual */
-    background-color: #fff;
-  }
-  .description-content > p {
+    /* background-color: #fff; */
+    /* margin-left: 20px; */
+  /* } */
+  /* .description-content > p { */
     /* Box-model */
-    padding-top: 20px;
+    /* padding-top: 20px; */
     /* Typography */
-    font-size: 16px;
-    line-height: 30px;
-    color: slategray;
-  }
+    /* font-size: 16px; */
+    /* line-height: 30px; */
+    
+    /* color: slategrey; */
+  /* } */
 
 
-  .container .row div{
+  /* .container .row div{
     color: grey;
 }
 .section  div{
     background-color:white;
 }
  section{
-    padding: 1%;
-    background-color:lightgray;
-}
+    padding: 0%;
+    background-color:lightgray; */
+/* } */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 900px) {
   /* override default class styling for positioning/padding */
-  .description-content {
+  /* .description-content { */
     /* Box-model */
-    padding: 0;
+    /* padding: 0px; */
     /* Positioning */
-    margin-top: 0;
-  }
-}
+    /* margin-top: 0; */ 
+  /* } */
+/* } */
